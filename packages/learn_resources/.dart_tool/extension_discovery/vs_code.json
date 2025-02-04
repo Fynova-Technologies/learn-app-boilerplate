@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "entries": [
+    { "package": "learn_resources", "rootUri": "../", "packageUri": "lib/" },
+    {
+      "package": "flutter_gen",
+      "rootUri": "flutter_gen/",
+      "packageUri": "flutter_gen/"
+    }
+  ]
+}

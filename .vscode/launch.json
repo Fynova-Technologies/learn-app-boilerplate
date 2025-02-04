@@ -1,0 +1,73 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "learn-app-boilerplate",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "learn",
+            "cwd": "packages/learn",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "learn (profile mode)",
+            "cwd": "packages/learn",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "learn (release mode)",
+            "cwd": "packages/learn",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "learn_components",
+            "cwd": "packages/learn_components",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "learn_components (profile mode)",
+            "cwd": "packages/learn_components",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "learn_components (release mode)",
+            "cwd": "packages/learn_components",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "learn_resources",
+            "cwd": "packages/learn_resources",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "learn_resources (profile mode)",
+            "cwd": "packages/learn_resources",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "learn_resources (release mode)",
+            "cwd": "packages/learn_resources",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

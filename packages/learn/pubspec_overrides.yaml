@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: learn_components,learn_resources
+dependency_overrides:
+  learn_components:
+    path: ../learn_components
+  learn_resources:
+    path: ../learn_resources

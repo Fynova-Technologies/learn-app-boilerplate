@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/learn/melos_learn.iml" filepath="$PROJECT_DIR$/packages/learn/melos_learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/learn_components/melos_learn_components.iml" filepath="$PROJECT_DIR$/packages/learn_components/melos_learn_components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/learn_resources/melos_learn_resources.iml" filepath="$PROJECT_DIR$/packages/learn_resources/melos_learn_resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_learn.iml" filepath="$PROJECT_DIR$/melos_learn.iml" />
+    </modules>
+  </component>
+</project>
