@@ -14,7 +14,7 @@ class LearnApp extends ConsumerWidget {
     const localization = LearnLocalization();
 
     return LearnTheme(
-        themeMode: ThemeMode.light,
+        themeMode: ThemeMode.dark,
         builder: (config) {
           return MaterialApp.router(
               localizationsDelegates: localization.delegates,
@@ -22,7 +22,7 @@ class LearnApp extends ConsumerWidget {
               locale: const Locale('ne'),
               routerConfig: AppRouter.router,
               debugShowCheckedModeBanner: false,
-              theme: config.light,
+              theme: config.dark,
               darkTheme: config.dark);
         });
   }
