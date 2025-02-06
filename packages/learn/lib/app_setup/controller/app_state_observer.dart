@@ -18,7 +18,7 @@ class AppStateObserver extends ConsumerWidget {
       ),
       showOnBoarding: (_) => const Scaffold(
         body: Center(
-          child: Text("show onboarding"),
+          child: Text('test'),
         ),
       ),
       authenticated: (_) => const Scaffold(

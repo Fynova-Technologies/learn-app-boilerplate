@@ -1,17 +1,1 @@
-{
-  "version": 2,
-  "entries": [
-    { "package": "learn", "rootUri": "../../learn/", "packageUri": "lib/" },
-    {
-      "package": "learn_resources",
-      "rootUri": "../../learn_resources/",
-      "packageUri": "lib/"
-    },
-    { "package": "learn_components", "rootUri": "../", "packageUri": "lib/" },
-    {
-      "package": "flutter_gen",
-      "rootUri": "flutter_gen/",
-      "packageUri": "flutter_gen/"
-    }
-  ]
-}
+{"version":2,"entries":[{"package":"learn","rootUri":"../../learn/","packageUri":"lib/"},{"package":"learn_resources","rootUri":"../../learn_resources/","packageUri":"lib/"},{"package":"learn_components","rootUri":"../","packageUri":"lib/"},{"package":"flutter_gen","rootUri":"flutter_gen/","packageUri":"flutter_gen/"}]}
