@@ -19,7 +19,7 @@ class LearnApp extends ConsumerWidget {
           return MaterialApp.router(
               localizationsDelegates: localization.delegates,
               supportedLocales: localization.supportedLocales,
-              locale: Locale(selectedString),
+              locale: const Locale('ne'),
               routerConfig: AppRouter.router,
               debugShowCheckedModeBanner: false,
               theme: config.light,

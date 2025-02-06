@@ -1,7 +1,8 @@
 {
     "appName": "learn",
 
-    "description": "नेपाली विवरण"
+    "description": "नेपाली विवरण",
+     "headerText":"This is header text in Nepali"
    
 }
 

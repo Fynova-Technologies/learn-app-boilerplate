@@ -104,8 +104,14 @@ abstract class AppLocalizations {
   /// No description provided for @description.
   ///
   /// In en, this message translates to:
-  /// **'Hebrew description'**
+  /// **'English description'**
   String get description;
+
+  /// No description provided for @headerText.
+  ///
+  /// In en, this message translates to:
+  /// **'This is header text in English'**
+  String get headerText;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

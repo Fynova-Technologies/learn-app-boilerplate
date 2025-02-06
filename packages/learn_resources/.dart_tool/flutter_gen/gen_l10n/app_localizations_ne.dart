@@ -11,4 +11,7 @@ class AppLocalizationsNe extends AppLocalizations {
 
   @override
   String get description => 'नेपाली विवरण';
+
+  @override
+  String get headerText => 'This is header text in Nepali';
 }

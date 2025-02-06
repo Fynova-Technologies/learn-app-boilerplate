@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:learn_components/learn_componenets.dart';
 import 'package:learn_resources/learn_resources.dart';
 
 class LearningDashboardScreen extends ConsumerWidget {
@@ -8,9 +9,22 @@ class LearningDashboardScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      body: Center(
-        child: Text(context.loc.appName),
-      ),
-    );
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: const Icon(Icons.add),
+        ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(context.loc.headerText),
+            Picture(source: Asset.footer.add),
+            Picture(source: Asset.footer.chat),
+            const SizedBox(
+              height: 50,
+              width: 100,
+              child: Text("this is container text"),
+            )
+          ],
+        ));
   }
 }

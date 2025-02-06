@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:learn/app_setup/controller/app_controller.dart';
+import 'package:learn/features/learning_dashboard/learning_dashboard_screen.dart';
 
 class AppStateObserver extends ConsumerWidget {
   const AppStateObserver({super.key});
@@ -11,26 +12,10 @@ class AppStateObserver extends ConsumerWidget {
     // We can implement dynamic routing as per the app state
     final appState = ref.watch(appController);
     return appState.map(
-      started: (_) => const Scaffold(
-        body: Center(
-          child: Text("started"),
-        ),
-      ),
-      showOnBoarding: (_) => const Scaffold(
-        body: Center(
-          child: Text('test'),
-        ),
-      ),
-      authenticated: (_) => const Scaffold(
-        body: Center(
-          child: Text("authenticated"),
-        ),
-      ),
-      unAuthenticated: (_) => const Scaffold(
-        body: Center(
-          child: Text("unathenticated"),
-        ),
-      ),
+      started: (_) => const LearningDashboardScreen(),
+      showOnBoarding: (_) => const LearningDashboardScreen(),
+      authenticated: (_) => const LearningDashboardScreen(),
+      unAuthenticated: (_) => const LearningDashboardScreen(),
     );
   }
 }

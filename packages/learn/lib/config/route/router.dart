@@ -13,6 +13,7 @@ import 'package:go_router/go_router.dart';
 import 'package:learn/app_setup/controller/app_state_observer.dart';
 import 'package:learn/config/error_screen.dart';
 import 'package:learn/config/route/paths.dart';
+import 'package:learn/features/learning_dashboard/learning_dashboard_screen.dart';
 
 class AppRouter {
   static final key = GlobalKey<NavigatorState>();
@@ -26,14 +27,14 @@ class AppRouter {
         pageBuilder: (context, state) => FadeTransitionPage(
             key: state.pageKey, child: const AppStateObserver()),
       ),
-      // GoRoute(
-      //   path: Paths.onboardingScreenRoute.path,
-      //   name: Paths.onboardingScreenRoute.routeName,
-      //   pageBuilder: (context, state) => FadeTransitionPage(
-      //     key: state.pageKey,
-      //     child: const OnboardingScreen(),
-      //   ),
-      // ),
+      GoRoute(
+        path: Paths.learningDashboardScreenRoute.path,
+        name: Paths.learningDashboardScreenRoute.routeName,
+        pageBuilder: (context, state) => FadeTransitionPage(
+          key: state.pageKey,
+          child: const LearningDashboardScreen(),
+        ),
+      ),
       // GoRoute(
       //   path: Paths.newsFeedScreenRoute.path,
       //   name: Paths.newsFeedScreenRoute.routeName,

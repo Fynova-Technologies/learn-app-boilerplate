@@ -17,7 +17,7 @@ class DropShadowBox extends StatelessWidget {
     return DecoratedBox(
       decoration: BoxDecoration(
         borderRadius: borderRadius,
-        color: backgroundColor ?? Theme.of(context).colorScheme.background,
+        color: backgroundColor ?? Theme.of(context).colorScheme.surface,
         border: Border.all(
             color: Colors.white, strokeAlign: BorderSide.strokeAlignOutside),
         boxShadow: [

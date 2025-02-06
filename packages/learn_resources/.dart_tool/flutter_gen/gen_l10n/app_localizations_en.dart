@@ -10,5 +10,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get appName => 'learn';
 
   @override
-  String get description => 'Hebrew description';
+  String get description => 'English description';
+
+  @override
+  String get headerText => 'This is header text in English';
 }

@@ -1,5 +1,6 @@
 {
     "appName": "learn",
-    "description":"Hebrew description"
+    "description":"English description",
+    "headerText":"This is header text in English"
    
 }
